@@ -1,0 +1,1 @@
+﻿SELECT * FROM Aluno WHERE (Aprovado = 1) order by Email 

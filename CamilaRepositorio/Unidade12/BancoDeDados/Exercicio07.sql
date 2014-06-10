@@ -1,0 +1,1 @@
+﻿Create Table dbo.Livro (Titulo varchar(255), Autor varchar(255))

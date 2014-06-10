@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7DCE8E77-A057-474E-A960-D83DA7CAA02B}</ProjectGuid>
+    <ProjectGuid>{6890FDA5-6174-4719-B897-397833176054}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CamilaRepositorio</RootNamespace>
-    <AssemblyName>CamilaRepositorio</AssemblyName>
+    <RootNamespace>Unidade09</RootNamespace>
+    <AssemblyName>Unidade09</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Arrays\Exercicio01_SequenciaQualquer.cs" />
+    <Compile Include="Arrays\Exercicio02_SequenciaCrescente.cs" />
+    <Compile Include="Arrays\Exercicio03_SequenciaDecrescente.cs" />
+    <Compile Include="Arrays\Exercicio04_SequenciaImpar.cs" />
+    <Compile Include="Arrays\Exercicio05_SequenciaAleatória.cs" />
+    <Compile Include="Arrays\Exercicio06_TabelaQualquer.cs" />
+    <Compile Include="Arrays\Exercicio08_Tabuada.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio01_GabaritoProva.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio02_VagasEstacionamento.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio03_ElementosInteiros.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio04_12Posições.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio05_AprovadoReprovado.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio07_Vetores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

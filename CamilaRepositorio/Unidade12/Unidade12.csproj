@@ -69,12 +69,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CamilaDB.mdf</DependentUpon>
     </Content>
+    <Content Include="ExercicioFixação\ChaveDentroDeChave.sql" />
     <Content Include="ExercicioFixação\Exercicio07.sql" />
     <Content Include="ExercicioFixação\Exercicio02.sql" />
     <Content Include="ExercicioFixação\Exercicio04.sql" />
     <Content Include="ExercicioFixação\Exercicio05.sql" />
     <Content Include="ExercicioFixação\Exercicio08.sql" />
     <Content Include="ExercicioFixação\Exercicio01.sql" />
+    <Content Include="ExercicioFixação\Exercicio10.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

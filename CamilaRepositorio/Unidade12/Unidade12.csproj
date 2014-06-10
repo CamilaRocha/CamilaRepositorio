@@ -69,15 +69,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CamilaDB.mdf</DependentUpon>
     </Content>
-    <Content Include="BancoDeDados\dbo.Aluno.data.sql" />
-    <Content Include="BancoDeDados\Exercicio07.sql" />
-    <Content Include="BancoDeDados\SQLQuery1.sql" />
-    <Content Include="BancoDeDados\SQLQuery2.sql" />
-    <Content Include="BancoDeDados\SQLQuery3.sql" />
-    <Content Include="BancoDeDados\SQLQuery4.sql" />
-    <Content Include="BancoDeDados\SQLQuery5.sql" />
-    <Content Include="BancoDeDados\SQLQuery6.sql" />
-    <Content Include="BancoDeDados\SQLQuery7.sql" />
+    <Content Include="ExercicioFixação\Exercicio07.sql" />
+    <Content Include="ExercicioFixação\Exercicio02.sql" />
+    <Content Include="ExercicioFixação\Exercicio04.sql" />
+    <Content Include="ExercicioFixação\Exercicio05.sql" />
+    <Content Include="ExercicioFixação\Exercicio08.sql" />
     <Content Include="ExercicioFixação\Exercicio01.sql" />
   </ItemGroup>
   <ItemGroup>

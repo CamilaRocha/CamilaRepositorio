@@ -90,10 +90,11 @@ namespace Pedido
             Console.WriteLine("Digite a unidade do Produto: ");
             string unidade = Console.ReadLine();
             Console.WriteLine("Digite o valor do Produto: ");
-            decimal valor = decimal.Parse(Console.ReadLine());
+            double valor = double.Parse(Console.ReadLine());
+            string nvalor = valor.ToString().Replace(',', '.');
 
 
-            string sqlInsert = String.Format("Insert Into Produto (Nome, Unidade, Valor) Values ('{0}', '{1}', '{2}'", nome, unidade, valor);
+            string sqlInsert = String.Format("Insert Into Produto(Nome, Unidade, Valor) Values('{0}', '{1}', {2})", nome, unidade, nvalor);
             SqlCommand command = new SqlCommand(sqlInsert, sqlConnection);
 
             try

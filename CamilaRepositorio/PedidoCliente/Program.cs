@@ -101,7 +101,8 @@ namespace Pedido
             int telefone = int.Parse(Console.ReadLine());
 
 
-            string sqlInsert = String.Format("Insert Into Cliente(PrimeiroNome, Sobrenome, Cidade, Estado, CEP, CPF, Telefone) Values('{0}', '{1}','{2}', '{3}', {4}, {5}, {6})", nome, sobrenome, cidade, estado, cep, cpf, telefone );
+            string sqlInsert = String.Format("Insert Into Cliente(PrimeiroNome, Sobrenome, Cidade, Estado, CEP, CPF, Telefone)" +
+            "Values('{0}', '{1}','{2}', '{3}', {4}, {5}, {6})", nome, sobrenome, cidade, estado, cep, cpf, telefone );
             SqlCommand command = new SqlCommand(sqlInsert, sqlConnection);
 
             try

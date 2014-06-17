@@ -69,6 +69,22 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CamilaDB.mdf</DependentUpon>
     </Content>
+    <Content Include="ExercicioComplementar\Exercicio01.sql" />
+    <Content Include="ExercicioComplementar\Exercicio02.sql" />
+    <Content Include="ExercicioComplementar\Exercicio03.sql" />
+    <Content Include="ExercicioComplementar\Exercicio04.sql" />
+    <Content Include="ExercicioComplementar\Exercicio05.sql" />
+    <Content Include="ExercicioComplementar\Exercicio06.sql" />
+    <Content Include="ExercicioComplementar\Exercicio07.sql" />
+    <Content Include="ExercicioComplementar\Exercicio08.sql" />
+    <Content Include="ExercicioComplementar\Exercicio10.sql" />
+    <Content Include="ExercicioComplementar\Exercicio11.sql" />
+    <Content Include="ExercicioComplementar\Exercicio12.sql" />
+    <Content Include="ExercicioComplementar\Exercicio13.sql" />
+    <Content Include="ExercicioComplementar\Exercicio15.sql" />
+    <Content Include="ExercicioComplementar\Exercicio16.sql" />
+    <Content Include="ExercicioComplementar\Exercicio17.sql" />
+    <Content Include="ExercicioComplementar\Exercicio18.sql" />
     <Content Include="ExercicioFixação\ChaveDentroDeChave.sql" />
     <Content Include="ExercicioFixação\Exercicio07.sql" />
     <Content Include="ExercicioFixação\Exercicio02.sql" />
@@ -95,6 +111,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

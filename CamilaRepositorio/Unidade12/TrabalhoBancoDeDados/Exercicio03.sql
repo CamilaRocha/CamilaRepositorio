@@ -1,0 +1,1 @@
+﻿Select Email, DataNascimento From TBAluno  Where DataNascimento  Between '19800101' and '19961230'

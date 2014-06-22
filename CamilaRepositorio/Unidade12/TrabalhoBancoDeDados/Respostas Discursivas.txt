@@ -1,0 +1,29 @@
+1) SQL-  Linguagem de Consulta Estruturada,é um SGBD (Sistema Gerenciador de Banco de Dados Relacional) ,
+ criado pela Microsfot. 
+
+2) No SQL é possível fazer junções de tabelas através das chaves estrangeiras.
+Usando o "inner join" - responsável por fazer essas junções.
+
+
+3) SQL é fácil de usar, oferece acessibilidade para qualquer banco de dados sem se preocupar com a linguagem de  programação 
+utilizada.
+
+4)  Utilizamos Select * from (tabela)  - exibe todos os dados registrados na tabela.
+Ja Select (atributo) from (tabela) - exibe  todos os dados dos atributos desejados registrados na tabela.
+E Select (atributo) from (tabela) where (condição) - exibe todos os dados dos atributos desejados registrados na tabela 
+conforme a condição desejada.
+
+
+5)  A linguagem SQL é um sistema padrão de acesso de banco de dados, podendo acessar qualquer banco de dados, sem se 
+preocupar com a linguagem de programação que você está utilizando para desenvolver o sistema. 
+Além da sintaxe simples, ela pode recuperar dados de um banco de dados local – instalado no mesmo computador em que
+aplicação está executando ou até mesmo recuperar dados remoto em um rede local ou pela internet.
+A velocidade de acesso e recuperação de dados é outra característica marcante dos sistemas que utilizam SQL
+
+
+
+
+
+
+
+

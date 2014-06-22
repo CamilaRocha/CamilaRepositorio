@@ -94,6 +94,7 @@
     <Content Include="ExercicioFixação\Exercicio01.sql" />
     <Content Include="ExercicioFixação\Exercicio10.sql" />
     <Content Include="TrabalhoBancoDeDados\Exercicio03.sql" />
+    <Content Include="TrabalhoBancoDeDados\Respostas Discursivas.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

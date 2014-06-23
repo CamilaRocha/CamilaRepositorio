@@ -1,5 +1,5 @@
 1) SQL-  Linguagem de Consulta Estruturada,é um SGBD (Sistema Gerenciador de Banco de Dados Relacional) ,
- criado pela Microsfot. 
+ criado pela Microsoft. 
 
 2) No SQL é possível fazer junções de tabelas através das chaves estrangeiras.
 Usando o "inner join" - responsável por fazer essas junções.

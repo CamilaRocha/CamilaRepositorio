@@ -93,7 +93,13 @@
     <Content Include="ExercicioFixação\Exercicio08.sql" />
     <Content Include="ExercicioFixação\Exercicio01.sql" />
     <Content Include="ExercicioFixação\Exercicio10.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio02.sql" />
     <Content Include="TrabalhoBancoDeDados\Exercicio03.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio04.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio05.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio06.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio07.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio09.sql" />
     <Content Include="TrabalhoBancoDeDados\Respostas Discursivas.txt" />
   </ItemGroup>
   <ItemGroup>

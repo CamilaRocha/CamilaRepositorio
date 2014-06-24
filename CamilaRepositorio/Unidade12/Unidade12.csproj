@@ -99,7 +99,9 @@
     <Content Include="TrabalhoBancoDeDados\Exercicio05.sql" />
     <Content Include="TrabalhoBancoDeDados\Exercicio06.sql" />
     <Content Include="TrabalhoBancoDeDados\Exercicio07.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio08.sql" />
     <Content Include="TrabalhoBancoDeDados\Exercicio09.sql" />
+    <Content Include="TrabalhoBancoDeDados\Exercicio10.sql" />
     <Content Include="TrabalhoBancoDeDados\Respostas Discursivas.txt" />
   </ItemGroup>
   <ItemGroup>

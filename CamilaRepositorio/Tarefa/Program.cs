@@ -5,7 +5,7 @@ namespace CollectionApplication
 {
     class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             ArrayList al = new ArrayList();
 
@@ -18,7 +18,70 @@ namespace CollectionApplication
             al.Add(98);
             al.Add(0);
             al.Add(6);
+            al.Add(16);
+            al.Add(76);
+            al.Add(66);
+            al.Add(56);
+            al.Add(6);
+            al.Add(6);
+            al.Add(6);
 
+            al.Add(6);
+            al.Add(145);
+            al.Add(718);
+            al.Add(333);
+            al.Add(5556);
+            al.Add(124);
+            al.Add(232);
+            al.Add(98);
+            al.Add(0);
+            al.Add(6);
+            al.Add(16);
+            al.Add(76);
+            al.Add(66);
+            al.Add(56);
+            al.Add(6);
+            al.Add(6);
+            al.Add(6);
+
+            al.Add(6);
+
+            al.Add(145);
+            al.Add(718);
+            al.Add(333);
+            al.Add(5556);
+            al.Add(124);
+            al.Add(232);
+            al.Add(98);
+            al.Add(0);
+            al.Add(6);
+            al.Add(16);
+            al.Add(76);
+            al.Add(66);
+            al.Add(56);
+            al.Add(6);
+            al.Add(6);
+            al.Add(6);
+
+            al.Add(6);
+            al.Add(145);
+            al.Add(718);
+            al.Add(333);
+            al.Add(5556);
+            al.Add(124);
+            al.Add(232);
+            al.Add(98);
+            al.Add(0);
+            al.Add(6);
+            al.Add(16);
+            al.Add(76);
+            al.Add(66);
+            al.Add(56);
+            al.Add(6);
+            al.Add(6);
+            al.Add(6);
+
+            al.Add(6);
             Console.WriteLine("Capacidade do array: {0} ", al.Capacity);
             Console.WriteLine("Total adicionado: {0}", al.Count);
             

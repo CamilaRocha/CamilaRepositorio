@@ -3,7 +3,7 @@ using System.Collections;
 public class SamplesArrayList
 {
 
-    public static void Main()
+    public static void Main1()
     {
 
         

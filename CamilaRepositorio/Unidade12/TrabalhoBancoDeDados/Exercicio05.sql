@@ -1,17 +1,15 @@
 ﻿--5) Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
 
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 1   -- Informática
+Select COUNT(*) AS QuantAluno, C.Curso From  TBAluno AS A 
+inner join TBMatrícula AS M on M.Id = A.Id
+inner join TBCurso AS C on C.Id = M.TBCurso_Id Group By C.Curso
 
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 2   -- Medicina
 
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 3   -- Arquitetura
-
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 4   -- Engenharia Civil
-
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 5  -- Contabilidade
-
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 6  -- Direito
-
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 7  -- BioMedicina
-
-Select COUNT(*) FROM TBMatrícula WHERE TBCurso_Id = 8   -- Artes
+2	Arquitetura
+1	Artes
+1	Biomedicina
+1	Contabilidade
+1	Direito
+1	Engenharia Civil
+1	Informática
+2	Medicina

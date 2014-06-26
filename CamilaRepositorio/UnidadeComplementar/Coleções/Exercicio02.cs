@@ -12,17 +12,26 @@ namespace UnidadeComplementar.Coleções
 
     {
         public static List<double> x = new List<double>();
+        public static Random gerador = new Random();
+
         public static void Main02(string[] args)
         {
 
             
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 80; i++)
             {
-                Console.WriteLine("Informe um numero: ");
-                x.Add(int.Parse(Console.ReadLine()));
-
+                x.Add(gerador.Next(0,100));
             }
-            
+
+            foreach (var item in x)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("---------- Resultado -----------");
+            Console.WriteLine();
             Console.WriteLine("Maior valor: {0} ", x.Max());
             Console.WriteLine("Menor valor: {0} ", x.Min());
             Console.WriteLine("Media: {0} ", x.Average());

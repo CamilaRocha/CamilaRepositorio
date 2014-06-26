@@ -15,35 +15,34 @@ namespace UnidadeComplementar.Coleções
 
     {
         public static ArrayList _ArrayList = new ArrayList();
+        public static Random gerador = new Random();
 
-        public static void Main1(string[] args)
+        public static void Main01(string[] args)
         {
-            _ArrayList.Add(111);
-            _ArrayList.Add(52);
-            _ArrayList.Add(63);
-            _ArrayList.Add(48);
-            _ArrayList.Add(55);
-            _ArrayList.Add(79);
-            _ArrayList.Add(8);
-            _ArrayList.Add(9);
-            _ArrayList.Add(122);
-            _ArrayList.Add(101);
+            for (int i = 0; i < 100; i++)
+            {
+                _ArrayList.Add(gerador.Next(0,99));
+
+            }
 
             _ArrayList.Sort();   // ordem crescente
 
             Console.WriteLine(" ------ Ordem Crescente ------ ");
+            Console.WriteLine();
             foreach (var item in _ArrayList)
             {
-                Console.WriteLine(item);
+                Console.Write(item + " ");
             }
             Console.WriteLine();
 
+            Console.WriteLine();
             _ArrayList.Reverse();  // ordem decrescente
             Console.WriteLine(" ------ Ordem Decrescente ------ ");
+            Console.WriteLine();
 
             foreach (var item in _ArrayList)
             {
-                Console.WriteLine(item);
+                Console.Write(item + " ");
             }
 
 

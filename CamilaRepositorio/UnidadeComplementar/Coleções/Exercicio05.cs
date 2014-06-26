@@ -8,7 +8,7 @@ namespace UnidadeComplementar.Coleções
 {
     class Exercicio05
     {
-        public static void Main05(string[] args)
+        public static void Main(string[] args)
         {
                  var copaDoMundo = new Dictionary<string, char>();
             var grupos = new List<char> { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };

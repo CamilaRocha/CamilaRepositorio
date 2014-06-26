@@ -48,6 +48,7 @@
     <Compile Include="Coleções\Exercicio03.cs" />
     <Compile Include="Coleções\Exercicio04.cs" />
     <Compile Include="Coleções\Exercicio05.cs" />
+    <Compile Include="Coleções\List.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

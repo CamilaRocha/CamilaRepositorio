@@ -11,26 +11,22 @@ namespace UnidadeComplementar.Coleções
     //2) Faça um algoritmo que leia uma coleção com 80 números decimais e encontre o menor valor, o maior valor, a média e a soma de todos os valores.
 
     {
-        public static List<int> x = new List<int>();
-        public static void Main03(string[] args)
+        public static List<double> x = new List<double>();
+        public static void Main02(string[] args)
         {
-            x.Add(111);
-            x.Add(52);
-            x.Add(63);
-            x.Add(48);
-            x.Add(55);
-            x.Add(79);
-            x.Add(8);
-            x.Add(9);
-            x.Add(122);
-            x.Add(101);
 
-		    int max = x.Max();
             
-            Console.WriteLine("Maior valor: ", max);
-            Console.WriteLine("Menor valor: ", x.Min());
-            Console.WriteLine("Media: ", x.Average());
-            Console.WriteLine("Soma: ", x.Min());
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Informe um numero: ");
+                x.Add(int.Parse(Console.ReadLine()));
+
+            }
+            
+            Console.WriteLine("Maior valor: {0} ", x.Max());
+            Console.WriteLine("Menor valor: {0} ", x.Min());
+            Console.WriteLine("Media: {0} ", x.Average());
+            Console.WriteLine("Soma: {0} ", x.Sum());
             
 
 

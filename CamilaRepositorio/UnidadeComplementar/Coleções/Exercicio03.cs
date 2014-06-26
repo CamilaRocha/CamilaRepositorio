@@ -34,9 +34,6 @@ namespace UnidadeComplementar
             }
 
 
-
-
-
             Console.ReadLine();
         }
     }

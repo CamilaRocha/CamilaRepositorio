@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade11", "Unidade11\Unid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade12", "Unidade12\Unidade12.csproj", "{7F777CB7-3D1A-45D1-B0F0-217769DAA369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedido", "Pedido\Pedido.csproj", "{93683B3A-333D-42FF-B3CB-966BB2ED2A1C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidadeComplementar", "UnidadeComplementar\UnidadeComplementar.csproj", "{E61DB937-C952-4CCB-88CD-8ECCB9119616}"
 EndProject
 Global
@@ -48,9 +46,6 @@ Global
 		{7F777CB7-3D1A-45D1-B0F0-217769DAA369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F777CB7-3D1A-45D1-B0F0-217769DAA369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F777CB7-3D1A-45D1-B0F0-217769DAA369}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93683B3A-333D-42FF-B3CB-966BB2ED2A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93683B3A-333D-42FF-B3CB-966BB2ED2A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93683B3A-333D-42FF-B3CB-966BB2ED2A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E61DB937-C952-4CCB-88CD-8ECCB9119616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E61DB937-C952-4CCB-88CD-8ECCB9119616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E61DB937-C952-4CCB-88CD-8ECCB9119616}.Release|Any CPU.ActiveCfg = Release|Any CPU

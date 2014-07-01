@@ -1,0 +1,42 @@
+﻿.h2{
+    color: cadetblue;
+    text-align: center;
+}
+
+.label{
+    color: blueviolet;
+    text-align: right;
+    background-color: pink;
+    
+}
+
+p.pink{
+    color: pink;
+    font-size: 50px;
+    margin-left: 90px;
+}
+
+p.darkgrey{
+    color: darkgrey;
+}
+
+body{
+    background-image: url(img/image.png);   
+    background-repeat: no-repeat;
+    background-position: 500px 400px;
+}
+
+
+p.lowercase{
+    text-align: left;
+    text-transform: lowercase;
+    text-indent: 50px;
+    font-family: "Comic Sans MS"
+}
+
+p.uppercase{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
